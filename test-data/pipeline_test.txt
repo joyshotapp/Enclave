@@ -1,0 +1,1 @@
+﻿This is a test document for verifying the full pipeline including parsing, chunking, and Ollama bge-m3 embedding. The cosine similarity search should be able to find this document when querying for 'test pipeline document'.

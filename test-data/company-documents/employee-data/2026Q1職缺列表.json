@@ -1,0 +1,70 @@
+{
+  "company": "泰宇科技股份有限公司",
+  "as_of": "2026-02-01",
+  "openings": [
+    {
+      "req_id": "JR2026001",
+      "title": "資深後端工程師",
+      "dept": "研發部",
+      "level": "P3",
+      "status": "招募中",
+      "posted": "2026-01-15"
+    },
+    {
+      "req_id": "JR2026002",
+      "title": "AI工程師",
+      "dept": "研發部",
+      "level": "P3",
+      "status": "招募中",
+      "posted": "2026-01-15"
+    },
+    {
+      "req_id": "JR2026003",
+      "title": "前端工程師",
+      "dept": "研發部",
+      "level": "P2",
+      "status": "招募中",
+      "posted": "2026-01-20"
+    },
+    {
+      "req_id": "JR2026004",
+      "title": "業務代表",
+      "dept": "業務部",
+      "level": "P2",
+      "status": "招募中",
+      "posted": "2026-01-22"
+    },
+    {
+      "req_id": "JR2026005",
+      "title": "資深業務代表",
+      "dept": "業務部",
+      "level": "P3",
+      "status": "招募中",
+      "posted": "2026-01-22"
+    },
+    {
+      "req_id": "JR2026006",
+      "title": "財務分析師",
+      "dept": "財務部",
+      "level": "P2",
+      "status": "面試中",
+      "posted": "2026-01-10"
+    },
+    {
+      "req_id": "JR2026007",
+      "title": "初級工程師",
+      "dept": "研發部",
+      "level": "P1",
+      "status": "招募中",
+      "posted": "2026-02-01"
+    },
+    {
+      "req_id": "JR2026008",
+      "title": "倉管專員",
+      "dept": "研發部",
+      "level": "P2",
+      "status": "暫緩",
+      "posted": "2025-12-01"
+    }
+  ]
+}

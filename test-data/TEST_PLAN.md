@@ -1,8 +1,8 @@
-# aihr 系統完整測試計畫
+# Enclave 系統完整測試計畫
 
 **計畫版本**: v1.0  
 **擬定日期**: 2026-02-10  
-**測試環境**: 本機 Docker (localhost) + Core API (https://ai.unihr.com.tw)
+**測試環境**: 本機 Docker (localhost) + Core API（依實際環境設定）
 
 ---
 
@@ -80,8 +80,7 @@
 | aihr-redis | :6379 | ✅ running | 快取/佇列 |
 | aihr-worker (Celery) | - | ⚠️ unhealthy | 需確認文件處理是否正常 |
 | aihr-frontend | :3001 | ⚠️ unhealthy | 前端可訪問但報不健康 |
-| aihr-admin-frontend | :3002 | ⚠️ unhealthy | 管理後台 |
-| Core API (unihr) | :443 | ✅ ok | 3,192 法律向量、GPT-4o |
+| Core API（外部） | :443 | ✅ ok | 法律向量與 LLM 回答來源 |
 
 ### 2.2 待確認事項
 
@@ -107,7 +106,7 @@
 ```bash
 # 0.2 Superuser 登入
 TOKEN=$(curl -s -X POST http://localhost:8000/api/v1/auth/login/access-token \
-  -d "username=admin@unihr.com&password=changethis" | jq -r '.access_token')
+  -d "username=admin@yourdomain.com&password=changethis" | jq -r '.access_token')
 
 # 0.3 建立租戶
 TENANT_ID=$(curl -s -X POST http://localhost:8000/api/v1/tenants/ \
